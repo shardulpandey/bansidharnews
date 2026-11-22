@@ -48,7 +48,7 @@ ${rest.map((a) => moduleSide(a, { image: listImage, cls: listCls, author: listAu
 
 /** Single-story block (reference tdi_60 / 65 / 70 and tdi_85). */
 function singleBlock(a, { ratio = '65%', excerpt = false, single = true } = {}) {
-  return moduleBig(a, { ratio, excerpt, single, sizes: '(max-width: 767px) 100vw, 370px' });
+  return `<div class="flexblock flexblock--single">${moduleBig(a, { ratio, excerpt, single, sizes: '(max-width: 767px) 100vw, 370px' })}</div>`;
 }
 
 /** Promo block (reference tdi_22, td_block_template_18). */

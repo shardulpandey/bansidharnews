@@ -1,8 +1,9 @@
 'use strict';
 
-// Site header, following the reference order: top bar (social, date, button),
-// centred logo row with the search dropdown, sticky menu bar, mobile header,
-// full-screen mobile menu and full-screen mobile search.
+// Site header, measured from the live reference: dark top bar (round social
+// icons, date, yellow button), logo row with the logo on the left, dark sticky
+// menu bar with search on the right, mobile header, full-screen mobile menu
+// and full-screen mobile search.
 const { esc, html, formatLongDate } = require('../lib/helpers');
 const { icon } = require('../lib/icons');
 const { site, nav, social, catUrl, catName } = require('../lib/store');
@@ -15,7 +16,9 @@ function socialLinks(cls = 'social') {
 
 function logoImg(variant = 'logo', eager = true) {
   const l = variant === 'mark' ? site.logoMark : site.logo;
-  return `<img src="${l.src}" srcset="${l.src} 1x, ${l.src2x} 2x" width="${l.width}" height="${l.height}" alt="${esc(l.alt)}"${eager ? '' : ' loading="lazy"'} decoding="async">`;
+  // Width descriptors let the browser pick the sharp file when the masthead shows the logo larger than 1x.
+  const sizes = variant === 'mark' ? '150px' : '(max-width: 1018px) 220px, 275px';
+  return `<img src="${l.src}" srcset="${l.src} ${l.width}w, ${l.src2x} ${l.width * 2}w" sizes="${sizes}" width="${l.width}" height="${l.height}" alt="${esc(l.alt)}"${eager ? '' : ' loading="lazy"'} decoding="async">`;
 }
 
 function searchForm(id, autofocus = false) {
@@ -71,20 +74,16 @@ function header({ current, buildDate }) {
 <header class="site-header">
 <div class="topbar">
 <div class="container topbar__inner">
-${socialLinks('social topbar__social')}
+<div class="topbar__left">
+${socialLinks('social social--round topbar__social')}
 <span class="topbar__date" data-today>${today}</span>
-<a class="topbar__cta" href="/contact/">खबर भेजें</a>
+</div>
+<a class="topbar__cta" href="/contact/">अपनी खबर हमें भेजें!</a>
 </div>
 </div>
 <div class="masthead">
 <div class="container masthead__inner">
 <a class="masthead__logo" href="/" aria-label="${esc(site.name)} होम">${logoImg('logo')}</a>
-<div class="masthead__search">
-<button type="button" class="masthead__search-btn" data-search-toggle data-search-target="search-panel-head" aria-expanded="false" aria-controls="search-panel-head" aria-label="खोजें">${icon('search')}</button>
-<div class="search-panel" id="search-panel-head" hidden>
-<div class="search-panel__inner">${searchForm('search-head')}</div>
-</div>
-</div>
 </div>
 </div>
 </header>

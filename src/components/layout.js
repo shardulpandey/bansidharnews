@@ -26,7 +26,7 @@ ${noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robo
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" type="image/svg+xml" href="/images/brand/favicon.svg">
 <link rel="preload" href="/fonts/noto-sans-devanagari-devanagari.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/roboto-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/mukta-600-devanagari.woff2" as="font" type="font/woff2" crossorigin>
 ${preloadImage || ''}
 <link rel="stylesheet" href="/assets/css/main.css?v=${ctx.assetVersion}">
 <meta property="og:site_name" content="${esc(site.name)} (${site.nameEn})">

@@ -31,6 +31,15 @@
   --c-line: #e3e3e3; /* (ref) */
   --c-surface: #fff;
 
+  /* Header bars and cards (ref, live site screenshots) */
+  --c-topbar: #222;
+  --c-menubar: #303030;
+  --c-cta: #fbe54c;
+  --c-date: #717171;
+  --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.2);
+  --shadow-menubar: 0 6px 8px rgba(0, 0, 0, 0.08);
+  --card-pad: 10px;
+
   /* Mobile menu and mobile search overlay (ref: tagDiv td-menu-background gradient) */
   --c-overlay-top: #313b45;
   --c-overlay-bottom: #3393b8;
@@ -57,6 +66,8 @@
   --ff-promo: 'Faustina', 'Noto Sans Devanagari', Georgia, serif; /* (ref) */
   --ff-ui: 'Roboto', 'Noto Sans Devanagari', Arial, sans-serif;
   --ff-meta: 'Open Sans', 'Noto Sans Devanagari', Arial, sans-serif; /* (ref) bylines, excerpts, pagination */
+  --ff-display: 'Mukta', 'Noto Sans Devanagari', 'Nirmala UI', sans-serif; /* (ref, live) headlines, section heads, menu, authors */
+  --ff-date: Arial, 'Liberation Sans', Helvetica, sans-serif; /* (ref, live) dates render in Arial 11px */
 
   /* Type scale */
   --fs-10: 10px;
@@ -110,7 +121,7 @@
   --row-gap: 20px; /* (ref) row margin-top */
 
   /* Header */
-  --topbar-h: 36px;
+  --topbar-h: 33px; /* (ref, live) */
   --menu-h: 48px;
   --mobile-header-h: 56px;
 

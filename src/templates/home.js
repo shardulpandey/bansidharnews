@@ -35,7 +35,7 @@ ${promoBlock({ ...home.promo, items: ids(home.promo.items) })}
 <div class="row">
 <section class="col col-4">
 ${blockHead('ताज़ा-तरीन खबरें', '/latest/')}
-${columnBlock(ids(home.latest), { ratio: '75%', bigDivider: 'dashed', listImage: false, listDivider: 'dashed' })}
+${columnBlock(ids(home.latest), { ratio: '72%', bigDivider: 'dashed', listImage: false, listDivider: 'dashed' })}
 </section>
 <section class="col col-4">
 ${blockHead('मत-विमत', catUrl('mat-vimat'))}
@@ -43,7 +43,7 @@ ${columnBlock(ids(home.opinion), { variant: 'opinion', ratio: '72%', bigExcerpt:
 </section>
 <section class="col col-4">
 ${blockHead('फीचर', catUrl('feature'))}
-${columnBlock(ids(home.feature), { ratio: '75%', bigExcerpt: true, bigDivider: 'dotted', listDate: false })}
+${columnBlock(ids(home.feature), { ratio: '72%', bigExcerpt: true, bigDivider: 'dotted', listDate: false })}
 </section>
 </div>
 
@@ -54,7 +54,7 @@ ${leadBlock(ids(home.sectionLead.items))}
 </section>
 <section class="col col-4">
 ${blockHead(catName(home.sectionSide.cat), catUrl(home.sectionSide.cat))}
-${columnBlock(ids(home.sectionSide.items), { ratio: '75%', bigDivider: 'dotted', listAuthor: false, listDate: false })}
+${columnBlock(ids(home.sectionSide.items), { ratio: '72%', bigDivider: 'dotted', listAuthor: false, listDate: false })}
 </section>
 </div>
 
