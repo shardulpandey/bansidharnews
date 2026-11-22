@@ -23,6 +23,20 @@ const homeData = require('./src/data/home');
 
 const CSS_ORDER = ['fonts', 'tokens', 'base', 'header', 'blocks', 'article', 'listing', 'footer', 'pages'];
 
+// BASE_PATH serves the site from a sub-folder (GitHub Pages project sites live
+// at /<repo>/). NOINDEX=1 keeps a preview deployment out of search engines.
+const BASE = (process.env.BASE_PATH || '').replace(/\/+$/, '');
+const NOINDEX = process.env.NOINDEX === '1';
+
+/** Prefix root-relative href, src, action and srcset URLs with BASE. */
+function rebase(markup) {
+  if (!BASE) return markup;
+  const fix = (u) => (u.startsWith('/') && !u.startsWith('//') ? BASE + u : u);
+  return markup
+    .replace(/(\s(?:href|src|action)=")(\/[^"]*)"/g, (m, attr, u) => `${attr}${fix(u)}"`)
+    .replace(/(\ssrcset=")([^"]*)"/g, (m, attr, v) => `${attr}${v.split(/,\s*/).map(fix).join(', ')}"`);
+}
+
 function rmrf(dir) {
   fs.rmSync(dir, { recursive: true, force: true });
 }
@@ -45,7 +59,7 @@ function write(rel, content) {
 
 function writePage(page, ctx) {
   const rel = page.path.endsWith('.html') ? page.path : path.join(page.path, 'index.html');
-  write(rel, layout(page, ctx));
+  write(rel, rebase(layout(NOINDEX ? { ...page, noindex: true } : page, ctx)));
   return page.path;
 }
 
@@ -68,8 +82,9 @@ function build() {
   const css = minifyCss(CSS_ORDER.map((n) => fs.readFileSync(path.join(ROOT, 'src/styles', `${n}.css`), 'utf8')).join('\n'));
   const js = fs.readFileSync(path.join(ROOT, 'src/scripts/main.js'), 'utf8');
   const assetVersion = crypto.createHash('md5').update(css + js).digest('hex').slice(0, 8);
-  write('assets/css/main.css', css);
-  write('assets/js/main.js', js);
+  write('assets/css/main.css', BASE ? css.replace(/url\((['"]?)\/(?!\/)/g, `url($1${BASE}/`) : css);
+  write('assets/js/main.js', BASE ? js.replace(/fetch\('\/data\//g, `fetch('${BASE}/data/`) : js);
+  write('.nojekyll', '');
 
   const ctx = {
     assetVersion,
@@ -141,7 +156,7 @@ function build() {
   const rest = feedAll.slice(homeData.feedInitial);
   for (let i = 0; i * homeData.feedPageSize < rest.length; i += 1) {
     const chunk = rest.slice(i * homeData.feedPageSize, (i + 1) * homeData.feedPageSize);
-    write(`data/feed-${i + 1}.json`, JSON.stringify({ page: i + 1, items: chunk.map((a) => feedCard(a)) }));
+    write(`data/feed-${i + 1}.json`, JSON.stringify({ page: i + 1, items: chunk.map((a) => rebase(feedCard(a))) }));
   }
 
   // Search index: searchable text plus pre-rendered result card.
@@ -150,7 +165,7 @@ function build() {
     s: [a.subtitle, a.excerpt].filter(Boolean).join(' '),
     k: [store.catName(a.cat), a.authorData.name, ...(a.tags || []).map((t) => store.tags[t]), a.location || ''].join(' '),
     b: a.body.join(' ').slice(0, 600),
-    h: listCard(a),
+    h: rebase(listCard(a)),
   }));
   write('data/search.json', JSON.stringify(index));
 
@@ -183,7 +198,7 @@ ${store.articles
 </rss>
 `;
   write('feed.xml', rss);
-  write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /search/\n\nSitemap: ${site.url}/sitemap.xml\n`);
+  write('robots.txt', NOINDEX ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\nDisallow: /search/\n\nSitemap: ${site.url}/sitemap.xml\n`);
 
   console.log(`Built ${urls.length + 1} pages in ${Date.now() - started} ms (assets v${assetVersion}). Latest story: ${formatDate(store.articles[0].date)}`);
 }
