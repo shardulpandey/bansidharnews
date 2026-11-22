@@ -1,43 +1,43 @@
-/* ---------- Breadcrumb ---------- */
-.breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-4); margin-bottom: var(--sp-12); }
-.breadcrumb a, .breadcrumb span { font-family: var(--ff-ui); font-size: var(--fs-12); color: var(--c-meta); }
+/* ---------- Breadcrumb (ref, live: Mukta 14px, very light grey) ---------- */
+.breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sp-4); margin-bottom: var(--crumb-gap, 9.2px); }
+.breadcrumb a, .breadcrumb span { font-family: var(--ff-display); font-size: var(--fs-14); font-weight: var(--fw-regular); line-height: 20px; color: var(--c-crumb); }
 .breadcrumb a:hover { color: var(--c-brand); }
-.breadcrumb__sep { font-size: 10px !important; color: #b5b5b5 !important; }
+.breadcrumb__sep { color: var(--c-crumb) !important; }
 
-/* ---------- Article header ---------- */
-.article { padding-top: var(--sp-25); }
+/* ---------- Article header: full width above the two columns (ref, live) ---------- */
+.article { padding-top: var(--article-top, 20px); }
+.article__head { padding-bottom: var(--head-bottom, 15.6px); }
 .article__cat {
-  display: inline-block; margin-bottom: var(--sp-10);
-  font-family: var(--ff-sans); font-size: var(--fs-13); font-weight: var(--fw-bold); color: var(--c-brand);
+  display: inline-block; margin-bottom: var(--cat-gap, 15.2px); padding: 0 5px;
+  font-family: var(--ff-display); font-size: var(--fs-13); font-weight: var(--fw-medium); line-height: 18px;
+  background: var(--c-brand); color: var(--c-white);
 }
-.article__cat:hover { color: var(--c-brand-dark); }
+.article__cat:hover { background: var(--c-brand-dark); color: var(--c-white); }
 .article__title {
-  font-family: var(--ff-display); font-size: 36px; font-weight: var(--fw-semibold); line-height: 1.25; color: #000; /* live headline face */
+  font-family: var(--ff-display); font-size: 44px; font-weight: var(--fw-bold); line-height: 56.6px; color: var(--c-title); /* (ref, live) Mukta 700 44px */
 }
 .article__subtitle {
-  margin-top: var(--sp-12); font-family: var(--ff-hindi); font-size: var(--fs-20); line-height: 1.55; color: var(--c-text-soft);
+  margin-top: var(--sub-gap, 7px); font-family: var(--ff-display); font-size: var(--fs-19); font-weight: var(--fw-regular); line-height: 25.8px; color: #525252; /* (ref, live) */
 }
-.article__byline { margin-top: var(--sp-16); font-family: var(--ff-meta); line-height: 1.5; }
-.article__author { font-family: var(--ff-display); font-size: var(--fs-16); font-weight: var(--fw-medium); color: #000; }
-.article__author:hover { color: var(--c-brand); }
-.article__date { display: block; font-family: var(--ff-date); font-size: var(--fs-12); color: var(--c-date); }
+.article__byline { display: flex; flex-wrap: wrap; align-items: baseline; gap: 9px; margin-top: var(--byline-gap, 16px); }
+.article__author { font-family: var(--ff-display); font-size: var(--fs-16); font-weight: var(--fw-medium); line-height: 20px; color: var(--c-brand); }
+.article__author:hover { color: var(--c-brand-dark); }
+.article__date { font-family: var(--ff-date); font-size: var(--fs-11); color: #444; }
 
-/* ---------- Share ---------- */
-.share { display: flex; flex-wrap: wrap; gap: var(--sp-6); margin: var(--sp-16) 0 var(--sp-20); }
+/* ---------- Share (ref, live: 40px circles, icon only) ---------- */
+.share { display: flex; flex-wrap: wrap; align-items: center; gap: 6.4px; margin: 0 0 20.2px; }
 .share__btn {
-  display: inline-flex; align-items: center; justify-content: center; gap: var(--sp-6);
-  min-width: 40px; height: 34px; padding: 0 var(--sp-10);
-  font-family: var(--ff-ui); font-size: var(--fs-12); font-weight: var(--fw-medium); color: var(--c-white);
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 50%; color: var(--c-white);
 }
-.share__btn .icon { font-size: 15px; }
-.share__btn:hover { color: var(--c-white); opacity: 0.88; }
+.share__btn .icon { font-size: 18px; }
+.share__btn:hover { color: var(--c-white); opacity: 0.85; }
 .share__btn--facebook { background: var(--c-facebook); }
 .share__btn--x { background: var(--c-x); }
 .share__btn--linkedin { background: var(--c-linkedin); }
 .share__btn--email { background: var(--c-email); }
 .share__btn--whatsapp { background: var(--c-whatsapp); }
 .share__btn--more { background: var(--c-more); }
-.share__label { min-width: 0; }
 .share__note { align-self: center; font-size: var(--fs-12); color: var(--c-meta); margin-left: var(--sp-6); }
 
 /* ---------- Featured image ---------- */
@@ -111,23 +111,26 @@
 .related .module__meta { padding-top: var(--sp-10); }
 .related .module__title { font-size: var(--fs-18); line-height: 23px; }
 
-/* ---------- Sidebar ---------- */
-.sidebar { padding-top: var(--sp-25); }
+/* ---------- Sidebar (ref, live: widgets in cards, Mukta 800 19px headings) ---------- */
+.sidebar { padding-top: 0; }
+.sidebar .widget { background: var(--c-surface); padding: var(--card-pad); box-shadow: var(--shadow-card); }
+.sidebar .widget + .widget { margin-top: var(--sp-30); }
+.sidebar .widget .flexblock { padding: 0; box-shadow: none; }
+.sidebar .block-head { font-size: 19px; font-weight: 800; line-height: 26px; margin-bottom: var(--sp-12); }
+.sidebar .module--big .module__title { font-size: var(--fs-18); line-height: 23px; }
 .sidebar__sticky { position: sticky; top: calc(var(--menu-h) + 20px); }
 
 @media (min-width: 768px) and (max-width: 1018px) {
-  .article__title { font-size: 30px; }
+  .article__title { font-size: 34px; line-height: 44px; }
   .article__subtitle { font-size: var(--fs-18); }
   .related__grid { gap: var(--sp-16); }
   .related .module__title { font-size: var(--fs-15); line-height: 20px; }
 }
 @media (max-width: 767px) {
   .article { padding-top: var(--sp-16); }
-  .article__title { font-size: 26px; line-height: 1.3; }
+  .article__title { font-size: 28px; line-height: 36px; }
   .article__subtitle { font-size: 17px; }
   .article__body { --body-fs: 17px; }
-  .share__label { display: none; }
-  .share__btn { min-width: 38px; padding: 0 var(--sp-8); }
   .article__figure { margin-left: calc(-1 * var(--gutter)); margin-right: calc(-1 * var(--gutter)); }
   .article__credit { padding: 0 var(--gutter); }
   .post-nav { grid-template-columns: 1fr; gap: var(--sp-16); }

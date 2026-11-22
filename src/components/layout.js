@@ -9,7 +9,7 @@ const { ticker, footer } = require('./footer');
 function layout(page, ctx) {
   const {
     title, description = site.description, path = '/', ogImage, ogType = 'website', current, content,
-    jsonLd = [], bodyClass = '', noindex = false, preloadImage,
+    jsonLd = [], bodyClass = '', noindex = false, preloadImage, showTicker = bodyClass === 'home',
   } = page;
   const fullTitle = title ? `${title} | ${site.name}` : `${site.name} (${site.nameEn}): ${site.tagline}`;
   const canonical = site.url + path;
@@ -46,7 +46,7 @@ ${jsonLd.map((j) => `<script type="application/ld+json">${JSON.stringify(j).repl
 </head>
 <body class="${bodyClass}">
 ${header({ current, buildDate: ctx.buildDate })}
-${ticker(ctx.tickerItems)}
+${showTicker ? ticker(ctx.tickerItems) : ''}
 <main id="main" class="main${bodyClass === 'home' ? ' main--home' : ''}" tabindex="-1">
 ${content}
 </main>

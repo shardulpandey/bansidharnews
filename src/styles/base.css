@@ -56,11 +56,19 @@ svg { flex-shrink: 0; }
 .col-8 { width: 66.66666667%; }
 .col-4 { width: 33.33333333%; }
 .col-6 { width: 50%; }
+.col-9 { width: 75%; }
+.col-3 { width: 25%; }
+.container--article { --container: 1122px; } /* (ref, live) single post: 1122px content, 75/25 columns */
+
+@media (min-width: 768px) and (max-width: 1018px) {
+  .col-9 { width: 66.66666667%; }
+  .col-3 { width: 33.33333333%; }
+}
 
 @media (max-width: 767px) {
   .row { margin-left: 0; margin-right: 0; }
   .col { padding: 0; }
-  .col-8, .col-4, .col-6 { width: 100%; }
+  .col-8, .col-4, .col-6, .col-9, .col-3 { width: 100%; }
   .row > .col + .col { margin-top: var(--sp-30); }
 }
 

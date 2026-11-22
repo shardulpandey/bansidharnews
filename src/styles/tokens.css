@@ -34,8 +34,9 @@
   /* Header bars and cards (ref, live site screenshots) */
   --c-topbar: #222;
   --c-menubar: #303030;
-  --c-cta: #fbe54c;
+  --c-cta: #ffe400; /* (ref, live) measured #fbe54c on a colour-managed screen, #ffe400 in sRGB */
   --c-date: #717171;
+  --c-crumb: #d6d6d6; /* (ref, live) breadcrumb */
   --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.2);
   --shadow-menubar: 0 6px 8px rgba(0, 0, 0, 0.08);
   --card-pad: 10px;
@@ -54,7 +55,7 @@
 
   /* Share buttons */
   --c-facebook: #516eab;
-  --c-x: #000;
+  --c-x: #29c5f6; /* (ref, live) share circle colour */
   --c-linkedin: #0266a0;
   --c-email: #000;
   --c-whatsapp: #7bbf6a;
