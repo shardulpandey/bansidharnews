@@ -1,0 +1,962 @@
+{
+ "anganwadi": {
+  "w": 1280,
+  "h": 924,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "गांव का आंगनबाड़ी केंद्र",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "User:Nskjnv",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anganwadi_center_at_Ada_village_cropped.jpg",
+  "source": "commons"
+ },
+ "archery": {
+  "w": 1280,
+  "h": 961,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "तीरंदाजी प्रतियोगिता में भाग लेते युवा",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "ᱤᱧ ᱢᱟᱛᱟᱞ",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archery_competition_on_the_occasion_of_Sakrat_festival_(56).jpg",
+  "source": "commons"
+ },
+ "assembly": {
+  "w": 1280,
+  "h": 523,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "झारखंड विधानसभा भवन, रांची",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Jayantamitra980",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jharkhand_Legislative_Assembly.jpg",
+  "source": "commons"
+ },
+ "assembly2": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "एक रुपये के सिक्के",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Reserve Bank of India / Kshitij Gupta",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:One_Rupee_Indian_coins.JPG",
+  "source": "commons"
+ },
+ "betla-entrance": {
+  "w": 1280,
+  "h": 853,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "बेतला नेशनल पार्क का प्रवेश द्वार",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Marian kispotta",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_of_Betla_national_park.jpg",
+  "source": "commons"
+ },
+ "betla-forest": {
+  "w": 1280,
+  "h": 576,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "बेतला नेशनल पार्क का जंगल",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Dev0745",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forest_in_Betla_National_Park_2025.jpg",
+  "source": "commons"
+ },
+ "bn-cyclone-fog": {
+  "w": 1280,
+  "h": 590,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "घने कुहासे के बीच हेडलाइट जलाकर चलते वाहन",
+  "pos": "50% 50%",
+  "caption": "छाया धुंध",
+  "credit": "बंशीधर न्यूज़",
+  "source": "banshidhar"
+ },
+ "bn-palamu-accident": {
+  "w": 1080,
+  "h": 619,
+  "widths": [
+   320,
+   640,
+   960,
+   1080
+  ],
+  "alt": "हादसे के बाद पलटी हुई दुर्घटनाग्रस्त कार",
+  "pos": "50% 45%",
+  "caption": "दुर्घटनाग्रस्त वाहन",
+  "credit": "बंशीधर न्यूज़",
+  "source": "banshidhar"
+ },
+ "bn-tata-steel-express": {
+  "w": 800,
+  "h": 1431,
+  "widths": [
+   320,
+   640,
+   800
+  ],
+  "alt": "टाटा स्टील एक्सप्रेस के कोच में सवार यात्री",
+  "pos": "50% 35%",
+  "caption": "ट्रेन सवार यात्री",
+  "credit": "बंशीधर न्यूज़",
+  "source": "banshidhar"
+ },
+ "bridge": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "नदी पर पुल का निर्माण",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Ganesh Dhamodkar",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Construction_of_a_bridge_on_Erai_river.jpg",
+  "source": "commons"
+ },
+ "bse": {
+  "w": 1280,
+  "h": 1071,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "बॉम्बे स्टॉक एक्सचेंज की इमारत, मुंबई",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Niyantha Shekhar",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg",
+  "source": "commons"
+ },
+ "chhath": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "छठ घाट पर पूजा करती व्रती महिलाएं",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Sntshkumar750",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chhath_Puja,_Chaudhary_Ghat_Pokhair.jpg",
+  "source": "commons"
+ },
+ "coal": {
+  "w": 1280,
+  "h": 853,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "झरिया की खुली कोयला खदान",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "international accountability project from Brooklyn, United States",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Open_pit_mine_in_Jharia.jpg",
+  "source": "commons"
+ },
+ "cop": {
+  "w": 1280,
+  "h": 622,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "संयुक्त राष्ट्र मुख्यालय के पास न्यूयॉर्क का तट",
+  "pos": "50% 60%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Jakub Hałun",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shore_of_the_East_River_with_Headquarters_of_the_United_Nations,_New_York_City,_20231005_1132_2230.jpg",
+  "source": "commons"
+ },
+ "daltonganj": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "मेदिनीनगर का छहमुहान चौक",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Vimal Chand",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chhahmuhan_Intersection.jpg",
+  "source": "commons"
+ },
+ "dam": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "गेतलसूद डैम, झारखंड",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Hishampgm",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Getalsud_Dam,_Jharkhand.jpg",
+  "source": "commons"
+ },
+ "deoghar": {
+  "w": 1280,
+  "h": 740,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "देवघर का बाबा बैद्यनाथ मंदिर परिसर",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Pinakpani",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baidyanath_temple_and_temple_complex,_Deoghar_11.jpg",
+  "source": "commons"
+ },
+ "elephant": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "घास के मैदान में जंगली हाथियों का झुंड",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Thapalens",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herd_of_wild_Asian_elephants_in_the_grasslands_of_Kaziranga.jpg",
+  "source": "commons"
+ },
+ "exam": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "परीक्षा केंद्र के बाहर इंतजार करते अभ्यर्थी और अभिभावक",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Biswarup Ganguly",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Bengal_Joint_Entrance_Examination_-_Howrah_2011-05-22_00286.jpg",
+  "source": "commons"
+ },
+ "fog": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "सर्दी की सुबह कोहरे में डूबा मैदान",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "SukantaBhowmik",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winter_Maidan_Morning_Kolkata.jpg",
+  "source": "commons"
+ },
+ "fog2": {
+  "w": 1280,
+  "h": 964,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "कोहरे से ढकी सुबह की सड़क",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Pradyumnakp",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Misty_Morning_in_Mysuru.jpg",
+  "source": "commons"
+ },
+ "football": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "खुले मैदान में फुटबॉल मैच",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Timothy A",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Football_Match_Chandigre_West_Garo_Oct24_A7CR_03548.jpg",
+  "source": "commons"
+ },
+ "forest": {
+  "w": 1280,
+  "h": 843,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "नेतरहाट की पहाड़ियों पर सूर्यास्त",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Ujjawalagrawal2",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_in_netarhatt,_jharkhand.jpg",
+  "source": "commons"
+ },
+ "hockey": {
+  "w": 1280,
+  "h": 844,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "हॉकी मैच के दौरान गेंद के लिए जूझते खिलाड़ी",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Jack de Nijs for Anefo",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hockey_Nederland_tegen_India_2-1,_een_der_gebroeders_Sing_in_duel_met_onze_voorh,_Bestanddeelnr_920-3319.jpg",
+  "source": "commons"
+ },
+ "hospital": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "राजेंद्र आयुर्विज्ञान संस्थान (रिम्स), रांची का परिसर",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Tuhin Chakraborty",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:RiMS_Ranchi.jpg",
+  "source": "commons"
+ },
+ "hospital2": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "रिम्स रांची के नए भवन",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Thnckv",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIMS_Ranchi_new_buildings.jpg",
+  "source": "commons"
+ },
+ "hundru": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "हुंडरू जलप्रपात, रांची",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Kingshuk Mondal",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hundru_Falls,_Jharkhand,_India.jpg",
+  "source": "commons"
+ },
+ "jsca": {
+  "w": 960,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960
+  ],
+  "alt": "जेएससीए अंतरराष्ट्रीय स्टेडियम, रांची",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Akash Guruji",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:JSCAInternational_Stadium1.jpg",
+  "source": "commons"
+ },
+ "jubilee": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "जमशेदपुर का जुबली पार्क",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Mohitjamshedpurian",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_view_of_jamshedpur_jubilee_park.jpg",
+  "source": "commons"
+ },
+ "kathmandu": {
+  "w": 1280,
+  "h": 853,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "स्वयंभूनाथ से काठमांडू शहर का दृश्य",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Vyacheslav Argenberg",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Kathmandu_from_Swayambhunath_2,_Nepal.jpg",
+  "source": "commons"
+ },
+ "mela": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "मेले में खिलौनों की दुकान",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Bodhadityamukherjee",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_typical_Village_Mela_or_Fair.jpg",
+  "source": "commons"
+ },
+ "mela2": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "मेले में जमीन पर सामान बेचते दुकानदार",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Neverdie1672018",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khoai_Mela_2.jpg",
+  "source": "commons"
+ },
+ "milk": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "दुग्ध सहकारी डेयरी संयंत्र",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Nalandadairy",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nalanda_dairy_01.jpg",
+  "source": "commons"
+ },
+ "paddy": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "खेत में धान की कटाई करती महिलाएं",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "McKay Savage",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Women_Harvesting_Rice_Paddy.jpg",
+  "source": "commons"
+ },
+ "palamufort": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "पलामू किले के खंडहर",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Paramanu Sarkar",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palamu_Fort,_Palamu,_Jharkhand_02.jpg",
+  "source": "commons"
+ },
+ "palash": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "पलाश के खिले हुए फूल",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "SMarndi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butea_Monosperma_flowers.jpg",
+  "source": "commons"
+ },
+ "parliament": {
+  "w": 1280,
+  "h": 842,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "संसद भवन, नई दिल्ली",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Nikhilb239",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sansad_Bhavan,_Delhi,_BNK.jpg",
+  "source": "commons"
+ },
+ "phone": {
+  "w": 1280,
+  "h": 853,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "रात में मोबाइल फोन से वीडियो बनाता व्यक्ति",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Jan Bockaert",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:India_DSC01089_(16696768246).jpg",
+  "source": "commons"
+ },
+ "phone2": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "सड़क किनारे खड़ी पुलिस की बस",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "juggadery",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delhi_Police_Bus.jpg",
+  "source": "commons"
+ },
+ "polling": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "मतदान केंद्र के बाहर कतार में खड़े मतदाता",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "GeoEvan (www.polgeonow.com)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meghalaya_2023_election_polling_station_(people_waiting).jpg",
+  "source": "commons"
+ },
+ "pond": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "सूखता हुआ गांव का तालाब",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "NiteshSingh6789",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chhath_Puja_Ghat_Piyarahi_Ballia.jpg",
+  "source": "commons"
+ },
+ "ranchistation": {
+  "w": 960,
+  "h": 532,
+  "widths": [
+   320,
+   640,
+   960
+  ],
+  "alt": "रोशनी से सजा रांची रेलवे स्टेशन",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Soumava2002",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ranchi_Junction_railway_station.jpg",
+  "source": "commons"
+ },
+ "ration": {
+  "w": 1280,
+  "h": 851,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "नाव पर लादे जा रहे रसोई गैस सिलेंडर",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Biswarup Ganguly",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:LPG_Cylinders_Loading_Onto_Boat_-_River_Matla_-_Godkhali_-_South_24_Parganas_2016-07-10_4880.JPG",
+  "source": "commons"
+ },
+ "school": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "स्कूल यूनिफॉर्म में बच्चे",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "McKay Savage from London, UK",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamil_Nadu_school_kids.jpg",
+  "source": "commons"
+ },
+ "smog": {
+  "w": 1280,
+  "h": 640,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "स्मॉग की चादर में ढका शहर",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Prami.ap90",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delhi_air_pollution_2019.jpg",
+  "source": "commons"
+ },
+ "sohrai": {
+  "w": 1280,
+  "h": 906,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "सोहराई चित्रकला का एक पारंपरिक नमूना",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Veera.sj",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sohrai_Flowery_Design_1.jpg",
+  "source": "commons"
+ },
+ "solar": {
+  "w": 1280,
+  "h": 848,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "खेत में लहलहाती धान की फसल",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Augustus Binu : flickr : Instagram",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paddy_Field_at_Eravathour_Thrissur.jpg",
+  "source": "commons"
+ },
+ "tractor": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "खेत में ट्रैक्टर से जुताई करता किसान",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Gillsaab1998",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmer_working_in_the_field_with_their_tractor.jpg",
+  "source": "commons"
+ },
+ "train": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "रांची रोड रेलवे स्टेशन का प्लेटफार्म",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Kuarun",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_View_of_Ranchi_Road_Station.jpg",
+  "source": "commons"
+ },
+ "tribaldance": {
+  "w": 1280,
+  "h": 720,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "पारंपरिक संथाली नृत्य करते कलाकार",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Lalturadipur",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santhali_Tribal_Dance.jpg",
+  "source": "commons"
+ },
+ "un": {
+  "w": 1280,
+  "h": 853,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "हावड़ा ब्रिज पर लोगों की भीड़",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Bernard Gagnon",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Howrah_Bridge_02.jpg",
+  "source": "commons"
+ },
+ "vandebharat": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "प्लेटफार्म पर खड़ी वंदे भारत एक्सप्रेस",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Ravi Dwivedi",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vande_Bharat_Express_train.jpg",
+  "source": "commons"
+ },
+ "vegmarket": {
+  "w": 1280,
+  "h": 779,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "बाजार में सब्जियां बेचती महिलाएं",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "Bernard Gagnon",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vegetable_market,_Ahmedabad.jpg",
+  "source": "commons"
+ },
+ "voting": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   320,
+   640,
+   960,
+   1280
+  ],
+  "alt": "एक मतदान केंद्र का भवन",
+  "pos": "50% 50%",
+  "caption": "प्रतीकात्मक तस्वीर",
+  "credit": "GeoEvan (www.polgeonow.com)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meghalaya_2023_election_polling_station.jpg",
+  "source": "commons"
+ }
+}

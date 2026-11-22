@@ -1,0 +1,15 @@
+{
+  "name": "banshidhar-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Banshidhar News website: static Hindi news portal generated from content data.",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node serve.js 4173",
+    "start": "node build.js && node serve.js 4173"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
